@@ -58,3 +58,9 @@ Git 已配置提交前自动运行这套测试与 Kernel 校验。
 ```bash
 ruby 00-Kernel/profile_check.rb
 ```
+
+查看系统状态：
+
+```bash
+ruby 00-Kernel/status.rb
+```
