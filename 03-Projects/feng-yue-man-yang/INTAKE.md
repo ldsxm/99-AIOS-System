@@ -37,5 +37,6 @@
 
 - 数据补充清单：`DATA-REQUEST.md`
 - 历史内容复盘表：`CONTENT-REVIEW.md`
+- 下一轮内容验证：`NEXT-CONTENT-TEST.md`
 
 - 最后更新：2026-08-06
