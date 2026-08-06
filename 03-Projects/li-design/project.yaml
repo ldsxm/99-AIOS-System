@@ -3,7 +3,7 @@ project:
   id: li-design
   name: 橘李设计
   purpose: 设计项目
-  status: scaffolded
+  status: partially_ingested
   chatgpt_project_id: g-p-6a5d5cb11f0c81919b1617b766d2bebe
   confirmed_context:
     related_brand: 橘李 ORLEE

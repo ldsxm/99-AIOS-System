@@ -3,7 +3,7 @@ project:
   id: overseas-accounts
   name: 海外账号运营
   purpose: Instagram＋Reddit
-  status: scaffolded
+  status: partially_ingested
   chatgpt_project_id: g-p-6a631b3ddd408191b7a0b0dbeb6bbd96
   confirmed_context:
     platforms:

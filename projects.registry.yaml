@@ -17,7 +17,7 @@ projects:
     name: 橘李刚俊莲
     purpose: 小红书运营
     path: 03-Projects/li-gang-jun-lian
-    status: scaffolded
+    status: partially_ingested
     rule_sources:
       - RULES.md
   - id: taozi-tokyo
@@ -31,14 +31,14 @@ projects:
     name: 橘李 Orlee
     purpose: 户外品牌设计
     path: 03-Projects/orlee
-    status: scaffolded
+    status: partially_ingested
     rule_sources:
       - RULES.md
   - id: overseas-accounts
     name: 海外账号运营
     purpose: Instagram＋Reddit
     path: 03-Projects/overseas-accounts
-    status: scaffolded
+    status: partially_ingested
     rule_sources:
       - RULES.md
   - id: feng-yue-man-yang
@@ -57,5 +57,5 @@ projects:
     name: 橘李设计
     purpose: 设计项目
     path: 03-Projects/li-design
-    status: scaffolded
+    status: partially_ingested
     rule_sources: []

@@ -3,7 +3,7 @@ project:
   id: li-gang-jun-lian
   name: 橘李刚俊莲
   purpose: 小红书运营
-  status: scaffolded
+  status: partially_ingested
   chatgpt_project_id: g-p-6a62a93352f88191baf01e0b6eb98686
   confirmed_context:
     platform: 小红书

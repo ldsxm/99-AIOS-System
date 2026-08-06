@@ -3,7 +3,7 @@ project:
   id: feng-yue-man-yang
   name: 风月慢养
   purpose: 中老年生活、养老与情绪共鸣内容
-  status: scaffolded
+  status: partially_ingested
   chatgpt_project_id: g-p-6a621aa331588191b034411880ddeb3f
   confirmed_context:
     platform: 小红书
