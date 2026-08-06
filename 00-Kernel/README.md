@@ -30,3 +30,9 @@ ruby 00-Kernel/capability_router.rb "检查并修改项目配置文件"
 ```bash
 ruby 00-Kernel/aios.rb "橘李刚俊莲：检查并修改项目配置文件"
 ```
+
+## 生成执行计划
+
+```bash
+ruby 00-Kernel/execution.rb "橘李刚俊莲：检查并修改项目配置文件"
+```
