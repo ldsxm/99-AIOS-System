@@ -51,7 +51,7 @@ projects:
     name: 商业研究
     purpose: 商业研究与资料整理
     path: 03-Projects/business-research
-    status: scaffolded
+    status: needs_input
     rule_sources: []
   - id: li-design
     name: 橘李设计

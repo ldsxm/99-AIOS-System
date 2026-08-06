@@ -1,0 +1,30 @@
+schema_version: "1.0"
+research_profile:
+  status: needs_input
+  topic: null
+  primary_question: null
+  business_decision: null
+  target_audience: null
+  geography: null
+  time_range: null
+  competitors_or_benchmarks: []
+  required_sources:
+    - official_statistics
+    - primary_company_sources
+    - reputable_industry_reports
+    - dated_news_or_market_signals
+  evidence_rules:
+    - record_source_url
+    - record_publication_date
+    - record_access_date
+    - separate_fact_inference_recommendation
+  deliverable:
+    format: null
+    deadline: null
+    decision_summary_required: true
+  next_inputs:
+    - 研究主题
+    - 最想回答的核心问题
+    - 研究结果要支持的商业决策
+    - 目标市场或地区
+    - 希望交付的报告形式与时间

@@ -3,7 +3,8 @@ project:
   id: business-research
   name: 商业研究
   purpose: 商业研究与资料整理
-  status: scaffolded
+  status: needs_input
+  profile: research-profile.yaml
   chatgpt_project_id: g-p-6a62201c95dc8191a76c056b3719bbb4
   source_threads: []
   system_rule_sources:
