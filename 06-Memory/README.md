@@ -14,3 +14,11 @@ ruby 00-Kernel/recorder.rb \
   --task "检查 AIOS 内核状态" \
   --result "AIOS 2.0.0 OK"
 ```
+
+成果索引：`ARTIFACTS.md`。
+
+更新索引：
+
+```bash
+ruby 00-Kernel/artifact_index.rb
+```
