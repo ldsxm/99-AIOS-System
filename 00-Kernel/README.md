@@ -11,3 +11,10 @@ AIOS v2 内核层，负责加载系统清单、识别任务、路由项目与能
 ```bash
 ruby 00-Kernel/check.rb
 ```
+
+## 路由并加载项目
+
+```bash
+ruby 00-Kernel/router.rb "橘李刚俊莲"
+ruby 00-Kernel/router.rb feng-yue-man-yang
+```
