@@ -17,5 +17,6 @@ project:
     - 6a631b9f-e7c8-83ea-a6ff-654e13e57b3b
   system_rule_sources:
     - ../../RULES.md
-  project_rule_sources: []
+  project_rule_sources:
+    - RULES.md
   memory_sources: []

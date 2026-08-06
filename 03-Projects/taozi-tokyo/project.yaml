@@ -8,5 +8,6 @@ project:
   source_threads: []
   system_rule_sources:
     - ../../RULES.md
-  project_rule_sources: []
+  project_rule_sources:
+    - RULES.md
   memory_sources: []

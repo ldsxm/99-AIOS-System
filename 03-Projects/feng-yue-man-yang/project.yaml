@@ -13,5 +13,6 @@ project:
     - 019fb7b8-2459-7820-91c7-af9bdf56ac03
   system_rule_sources:
     - ../../RULES.md
-  project_rule_sources: []
+  project_rule_sources:
+    - RULES.md
   memory_sources: []
