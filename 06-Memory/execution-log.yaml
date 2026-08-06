@@ -1,0 +1,9 @@
+---
+schema_version: '1.0'
+records:
+- id: exec-20260806T031827Z
+  recorded_at: '2026-08-06T03:18:27Z'
+  project: 99-aios-system
+  task: 检查 AIOS 内核状态
+  status: success
+  result: AIOS 2.0.0 OK
