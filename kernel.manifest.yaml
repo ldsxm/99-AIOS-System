@@ -5,10 +5,14 @@ system:
   version: "2.0.0"
   status: active
 paths:
+  kernel: 00-Kernel
   registry: 01-Registry
   capabilities: 02-Capabilities/capabilities.yaml
   projects: 03-Projects
   agents: 04-Agents
+  capabilities_registry: capabilities.yaml
+  projects_registry: projects.registry.yaml
+  agents_registry: agents.registry.yaml
   templates: 05-Templates
   memory: 06-Memory
   archive: 99-Archive
