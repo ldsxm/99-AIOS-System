@@ -4,6 +4,19 @@ project:
   name: 橘李刚俊莲
   purpose: 小红书运营
   status: scaffolded
+  chatgpt_project_id: g-p-6a62a93352f88191baf01e0b6eb98686
+  confirmed_context:
+    platform: 小红书
+    operating_modules:
+      - 定位中心
+      - 资料库规范与目录
+      - 执行中心职责
+      - 复盘规范
+  source_threads:
+    - 6a62abad-06a0-83ea-a3d7-1fe8569cfb89
+    - 6a62abbd-1b88-83ea-864d-7d66838c7c87
+    - 6a62abb6-1ddc-83ea-a24d-74303ce4605a
+    - 6a62abc3-9f38-83ea-83b9-553954d7e4cc
   system_rule_sources:
     - ../../RULES.md
   project_rule_sources: []

@@ -4,6 +4,8 @@ project:
   name: 商业研究
   purpose: 商业研究与资料整理
   status: scaffolded
+  chatgpt_project_id: g-p-6a62201c95dc8191a76c056b3719bbb4
+  source_threads: []
   system_rule_sources:
     - ../../RULES.md
   project_rule_sources: []
