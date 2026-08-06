@@ -127,3 +127,9 @@ records:
   task: 桃子逛东京：生成内容与视觉策划 Brief
   status: success
   result: taozi-content-visual completed
+- id: exec-20260806T045550Z
+  recorded_at: '2026-08-06T04:55:50Z'
+  project: li-gang-jun-lian
+  task: 橘李刚俊莲：生成小红书内容执行 Brief
+  status: success
+  result: xhs-content completed
