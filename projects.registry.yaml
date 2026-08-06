@@ -45,7 +45,7 @@ projects:
     name: 风月慢养
     purpose: 待接入项目规则
     path: 03-Projects/feng-yue-man-yang
-    status: scaffolded
+    status: partially_ingested
     rule_sources: []
   - id: business-research
     name: 商业研究
