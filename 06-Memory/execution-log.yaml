@@ -31,3 +31,9 @@ records:
   task: 加载橘李刚俊莲项目上下文
   status: success
   result: project-context completed
+- id: exec-20260806T033003Z
+  recorded_at: '2026-08-06T03:30:03Z'
+  project: feng-yue-man-yang
+  task: 风月慢养：生成今天的小红书选题
+  status: success
+  result: xhs-content completed

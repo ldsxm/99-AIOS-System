@@ -20,6 +20,8 @@ handler_id = if task.match?(/检查.*(AIOS|内核|配置|状态)|验证.*(AIOS|�
   "system-check"
 elsif task.match?(/加载.*项目|项目上下文|路由项目|读取.*规则|读取.*记忆/i)
   "project-context"
+elsif task.match?(/小红书|选题|文案|内容|复盘|发布/i)
+  "xhs-content"
 end
 
 handler = executors.find { |item| item.fetch("id") == handler_id }

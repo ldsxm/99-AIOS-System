@@ -20,8 +20,8 @@ executors:
     responsibility: 执行小红书选题、文案与内容流程
     capabilities:
       - content
-    entrypoint: null
-    status: planned
+    entrypoint: 04-Agents/xhs_content.rb
+    status: active
   - id: business-research
     name: Business Research Executor
     responsibility: 执行商业研究、资料核验与报告整理
