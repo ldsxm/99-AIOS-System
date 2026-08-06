@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Editors and local workspace metadata
+.idea/
+.vscode/
+*.swp
+
+# Temporary and generated files
+*.tmp
+*.log
+work/
+outputs/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example

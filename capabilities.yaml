@@ -1,0 +1,22 @@
+schema_version: "1.0"
+capabilities:
+  - id: reasoning
+    provider: chatgpt
+    description: 理解、判断、规划与研究
+    enabled: true
+  - id: content
+    provider: chatgpt
+    description: 文案、创意与内容生成
+    enabled: true
+  - id: filesystem
+    provider: codex
+    description: 文件、配置与批量处理
+    enabled: true
+  - id: verification
+    provider: codex
+    description: 检查、测试与结果验证
+    enabled: true
+  - id: web_research
+    provider: browser
+    description: 浏览与外部资料查询
+    enabled: true

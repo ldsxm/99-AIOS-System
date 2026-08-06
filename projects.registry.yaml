@@ -1,0 +1,15 @@
+schema_version: "1.0"
+projects:
+  - id: "99-aios-system"
+    name: AIOS 总控系统
+    path: .
+    status: active
+    rule_sources:
+      - PROJECT.md
+      - RULES.md
+      - WORKFLOW.md
+  - id: temporary
+    name: 临时创作实验室
+    path: 03-Projects/temporary
+    status: placeholder
+    rule_sources: []

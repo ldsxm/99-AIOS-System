@@ -1,0 +1,26 @@
+schema_version: "1.0"
+system:
+  id: aios
+  name: AIOS v2
+  version: "2.0.0"
+  status: active
+paths:
+  registry: 01-Registry
+  capabilities: 02-Capabilities/capabilities.yaml
+  projects: 03-Projects
+  agents: 04-Agents
+  templates: 05-Templates
+  memory: 06-Memory
+  archive: 99-Archive
+pipeline:
+  - understand
+  - route_project
+  - load_rules
+  - select_capabilities
+  - execute
+  - verify
+  - record
+defaults:
+  project: "99-aios-system"
+  execution_engine: chatgpt
+  require_verification: true

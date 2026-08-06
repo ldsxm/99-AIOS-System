@@ -1,0 +1,22 @@
+schema_version: "1.0"
+agents:
+  - id: router
+    name: Project Router
+    responsibility: 识别任务所属项目并选择执行路径
+    capabilities:
+      - reasoning
+    status: active
+  - id: research
+    name: Research Agent
+    responsibility: 收集、整理与核验外部资料
+    capabilities:
+      - reasoning
+      - web_research
+    status: active
+  - id: executor
+    name: Execution Agent
+    responsibility: 执行文件、配置与可验证的本地任务
+    capabilities:
+      - filesystem
+      - verification
+    status: active
