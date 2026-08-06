@@ -28,8 +28,8 @@ executors:
     capabilities:
       - reasoning
       - web_research
-    entrypoint: null
-    status: planned
+    entrypoint: 04-Agents/business_research.rb
+    status: active
   - id: brand-design
     name: Brand Design Executor
     responsibility: 执行品牌定位、视觉系统与设计任务
