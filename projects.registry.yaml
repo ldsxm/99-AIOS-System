@@ -13,3 +13,31 @@ projects:
     path: 03-Projects/temporary
     status: placeholder
     rule_sources: []
+  - id: li-gang-jun-lian
+    name: 橘李刚俊莲
+    purpose: 小红书运营
+    path: null
+    status: planned
+    rule_sources:
+      - RULES.md
+  - id: taozi-tokyo
+    name: 桃子逛东京
+    purpose: 内容与视觉
+    path: null
+    status: planned
+    rule_sources:
+      - RULES.md
+  - id: orlee
+    name: 橘李 Orlee
+    purpose: 户外品牌设计
+    path: null
+    status: planned
+    rule_sources:
+      - RULES.md
+  - id: overseas-accounts
+    name: 海外账号运营
+    purpose: Instagram＋Reddit
+    path: null
+    status: planned
+    rule_sources:
+      - RULES.md
