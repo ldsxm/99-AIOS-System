@@ -46,3 +46,11 @@ executors:
       - web_research
     entrypoint: 04-Agents/overseas_social.rb
     status: active
+  - id: taozi-content-visual
+    name: Taozi Content and Visual Executor
+    responsibility: 执行桃子逛东京的内容、视觉与素材流程
+    capabilities:
+      - content
+      - filesystem
+    entrypoint: 04-Agents/taozi_content_visual.rb
+    status: active

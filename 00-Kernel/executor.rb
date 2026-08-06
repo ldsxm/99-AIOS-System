@@ -22,6 +22,8 @@ elsif task.match?(/加载.*项目|项目上下文|路由项目|读取.*规则|�
   "project-context"
 elsif task.match?(/商业研究|研究|资料|报告|来源|核验|调研/i)
   "business-research"
+elsif task.match?(/桃子逛东京|东京内容|东京视觉|旅行内容|旅行视觉/i)
+  "taozi-content-visual"
 elsif task.match?(/品牌|Logo|VI|CI|视觉|设计|橘李设计|ORLEE/i)
   "brand-design"
 elsif task.match?(/海外账号|Instagram|Reddit|社区|海外平台|跨平台/i)
