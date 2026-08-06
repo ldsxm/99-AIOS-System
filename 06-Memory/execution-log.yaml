@@ -67,3 +67,39 @@ records:
   task: 检查 AIOS 内核状态
   status: success
   result: system-check completed
+- id: exec-20260806T043522Z
+  recorded_at: '2026-08-06T04:35:22Z'
+  project: feng-yue-man-yang
+  task: 风月慢养：生成今日小红书选题
+  status: success
+  result: xhs-content completed
+- id: exec-20260806T043522Z
+  recorded_at: '2026-08-06T04:35:22Z'
+  project: li-gang-jun-lian
+  task: 橘李刚俊莲：生成本周小红书内容计划
+  status: success
+  result: xhs-content completed
+- id: exec-20260806T043522Z
+  recorded_at: '2026-08-06T04:35:22Z'
+  project: overseas-accounts
+  task: 海外账号运营：检查 Instagram 与 Reddit 执行计划
+  status: success
+  result: overseas-social completed
+- id: exec-20260806T043522Z
+  recorded_at: '2026-08-06T04:35:22Z'
+  project: business-research
+  task: 商业研究：整理户外市场研究计划
+  status: success
+  result: business-research completed
+- id: exec-20260806T043523Z
+  recorded_at: '2026-08-06T04:35:23Z'
+  project: taozi-tokyo
+  task: 桃子逛东京：规划本周内容与视觉方向
+  status: success
+  result: taozi-content-visual completed
+- id: exec-20260806T043523Z
+  recorded_at: '2026-08-06T04:35:23Z'
+  project: li-design
+  task: 橘李设计：检查 ORLEE 品牌视觉方向
+  status: success
+  result: brand-design completed
