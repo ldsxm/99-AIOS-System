@@ -52,3 +52,9 @@ ruby 00-Kernel/test_aios.rb
 ```
 
 Git 已配置提交前自动运行这套测试与 Kernel 校验。
+
+商业研究档案检查：
+
+```bash
+ruby 00-Kernel/profile_check.rb
+```

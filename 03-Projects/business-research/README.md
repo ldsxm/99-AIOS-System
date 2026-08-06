@@ -7,6 +7,12 @@
 - 当前状态：已建立接入骨架，等待导入项目专属资料与规则。
 - 研究档案：[research-profile.yaml](research-profile.yaml)
 
+检查是否可以启动研究：
+
+```bash
+ruby 00-Kernel/profile_check.rb
+```
+
 ## 待接入内容
 
 - 研究主题与问题清单
