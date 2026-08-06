@@ -5,5 +5,6 @@
 | ChatGPT Project `g-p-6a621aa331588191b034411880ddeb3f` | 项目空间 | 项目上下文与历史对话 | 已登记 |
 | Thread `019fb7b8-2459-7820-91c7-af9bdf56ac03` | 对话 | 选题、内容方向与发布稿 | 已核验 |
 | [小红书主页](https://www.xiaohongshu.com/user/profile/6a23eca00000000002001c00) | 账号主页 | 账号信息、历史内容与后续数据核验 | 已登记 |
+| [小红书笔记](https://www.xiaohongshu.com/explore/6a73e8da000000002402ee4e) | 历史内容 | 内容标题、发布时间与互动数据复盘 | 已登记 |
 
 新增资料时记录名称、位置、用途和核验日期。
