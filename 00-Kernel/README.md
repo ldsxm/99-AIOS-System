@@ -18,3 +18,9 @@ ruby 00-Kernel/check.rb
 ruby 00-Kernel/router.rb "橘李刚俊莲"
 ruby 00-Kernel/router.rb feng-yue-man-yang
 ```
+
+## 选择执行能力
+
+```bash
+ruby 00-Kernel/capability_router.rb "检查并修改项目配置文件"
+```
