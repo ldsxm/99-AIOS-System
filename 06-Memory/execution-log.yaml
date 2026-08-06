@@ -7,3 +7,15 @@ records:
   task: 检查 AIOS 内核状态
   status: success
   result: AIOS 2.0.0 OK
+- id: exec-20260806T032207Z
+  recorded_at: '2026-08-06T03:22:07Z'
+  project: 99-aios-system
+  task: 检查 AIOS 内核状态
+  status: success
+  result: AIOS 2.0.0 OK
+- id: exec-20260806T032207Z
+  recorded_at: '2026-08-06T03:22:07Z'
+  project: 99-aios-system
+  task: 发布一篇小红书内容
+  status: blocked
+  result: requires a task-specific executor
