@@ -63,4 +63,17 @@ class AiosRegressionTest < Minitest::Test
       assert_includes output, "Handler: #{handler}"
     end
   end
+
+  def test_artifacts_are_nonempty_and_indexed
+    artifact_dir = File.join(ROOT, "06-Memory", "artifacts")
+    index_path = File.join(ROOT, "06-Memory", "ARTIFACTS.md")
+    artifacts = Dir[File.join(artifact_dir, "*.md")]
+    assert File.file?(index_path)
+    index = File.read(index_path)
+    refute_empty artifacts
+    artifacts.each do |path|
+      refute_empty File.read(path), File.basename(path)
+      assert_includes index, File.basename(path)
+    end
+  end
 end
