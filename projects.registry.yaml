@@ -24,7 +24,7 @@ projects:
     name: 桃子逛东京
     purpose: 内容与视觉
     path: 03-Projects/taozi-tokyo
-    status: scaffolded
+    status: partially_ingested
     rule_sources:
       - RULES.md
   - id: orlee

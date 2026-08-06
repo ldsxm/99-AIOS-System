@@ -3,8 +3,11 @@ project:
   id: taozi-tokyo
   name: 桃子逛东京
   purpose: 内容与视觉
-  status: scaffolded
+  status: partially_ingested
   chatgpt_project_id: g-p-6a1fe60bb6c08191b3586e70ab25fb6d
+  confirmed_context:
+    custom_instructions: none
+    synced_source_assets: 1
   source_threads: []
   system_rule_sources:
     - ../../RULES.md
