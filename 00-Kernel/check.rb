@@ -29,6 +29,9 @@ manifest = load_yaml(:manifest)
 capabilities = load_yaml(:capabilities)
 projects = load_yaml(:projects)
 agents = load_yaml(:agents)
+executors_path = File.join(ROOT, "04-Agents", "executors.registry.yaml")
+abort "ERROR missing #{executors_path}" unless File.file?(executors_path)
+executors = YAML.load_file(executors_path)
 
 require_key(manifest, "schema_version", FILES[:manifest])
 require_key(manifest, "system", FILES[:manifest])
@@ -36,19 +39,28 @@ require_key(manifest, "pipeline", FILES[:manifest])
 require_key(capabilities, "capabilities", FILES[:capabilities])
 require_key(projects, "projects", FILES[:projects])
 require_key(agents, "agents", FILES[:agents])
+require_key(executors, "executors", "04-Agents/executors.registry.yaml")
 
 capability_ids = capabilities["capabilities"].map { |item| item.fetch("id") }
 project_ids = projects["projects"].map { |item| item.fetch("id") }
 agent_ids = agents["agents"].map { |item| item.fetch("id") }
+executor_ids = executors["executors"].map { |item| item.fetch("id") }
 
 abort "ERROR duplicate capability id" unless capability_ids.uniq.length == capability_ids.length
 abort "ERROR duplicate project id" unless project_ids.uniq.length == project_ids.length
 abort "ERROR duplicate agent id" unless agent_ids.uniq.length == agent_ids.length
+abort "ERROR duplicate executor id" unless executor_ids.uniq.length == executor_ids.length
 
 known_capabilities = capability_ids.to_h { |id| [id, true] }
 agents["agents"].each do |agent|
   agent.fetch("capabilities", []).each do |capability|
     abort "ERROR agent #{agent.fetch("id")} references unknown capability #{capability}" unless known_capabilities[capability]
+  end
+end
+
+executors["executors"].each do |executor|
+  executor.fetch("capabilities", []).each do |capability|
+    abort "ERROR executor #{executor.fetch("id")} references unknown capability #{capability}" unless known_capabilities[capability]
   end
 end
 
@@ -62,5 +74,6 @@ end
 puts "AIOS #{manifest.fetch("system").fetch("version")} OK"
 puts "projects: #{project_ids.length}"
 puts "agents: #{agent_ids.length}"
+puts "executors: #{executor_ids.length}"
 puts "capabilities: #{capability_ids.length}"
 puts "pipeline: #{manifest.fetch("pipeline").join(" -> ")}"

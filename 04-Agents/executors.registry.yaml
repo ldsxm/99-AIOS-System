@@ -1,0 +1,48 @@
+schema_version: "1.0"
+executors:
+  - id: system-check
+    name: System Check Executor
+    responsibility: 验证 AIOS 配置、注册表与内核状态
+    capabilities:
+      - verification
+    entrypoint: 00-Kernel/check.rb
+    status: active
+  - id: project-context
+    name: Project Context Executor
+    responsibility: 加载项目配置、规则、来源与记忆
+    capabilities:
+      - reasoning
+      - filesystem
+    entrypoint: 00-Kernel/router.rb
+    status: active
+  - id: xhs-content
+    name: Xiaohongshu Content Executor
+    responsibility: 执行小红书选题、文案与内容流程
+    capabilities:
+      - content
+    entrypoint: null
+    status: planned
+  - id: business-research
+    name: Business Research Executor
+    responsibility: 执行商业研究、资料核验与报告整理
+    capabilities:
+      - reasoning
+      - web_research
+    entrypoint: null
+    status: planned
+  - id: brand-design
+    name: Brand Design Executor
+    responsibility: 执行品牌定位、视觉系统与设计任务
+    capabilities:
+      - content
+      - filesystem
+    entrypoint: null
+    status: planned
+  - id: overseas-social
+    name: Overseas Social Executor
+    responsibility: 执行 Instagram 与 Reddit 内容及社区流程
+    capabilities:
+      - content
+      - web_research
+    entrypoint: null
+    status: planned

@@ -13,6 +13,7 @@ paths:
   capabilities_registry: capabilities.yaml
   projects_registry: projects.registry.yaml
   agents_registry: agents.registry.yaml
+  executors_registry: 04-Agents/executors.registry.yaml
   templates: 05-Templates
   memory: 06-Memory
   archive: 99-Archive
