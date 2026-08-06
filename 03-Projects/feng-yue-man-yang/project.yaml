@@ -1,0 +1,9 @@
+schema_version: "1.0"
+project:
+  id: feng-yue-man-yang
+  name: 风月慢养
+  status: scaffolded
+  system_rule_sources:
+    - ../../RULES.md
+  project_rule_sources: []
+  memory_sources: []

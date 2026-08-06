@@ -41,3 +41,21 @@ projects:
     status: scaffolded
     rule_sources:
       - RULES.md
+  - id: feng-yue-man-yang
+    name: 风月慢养
+    purpose: 待接入项目规则
+    path: 03-Projects/feng-yue-man-yang
+    status: scaffolded
+    rule_sources: []
+  - id: business-research
+    name: 商业研究
+    purpose: 商业研究与资料整理
+    path: 03-Projects/business-research
+    status: scaffolded
+    rule_sources: []
+  - id: li-design
+    name: 橘李设计
+    purpose: 设计项目
+    path: 03-Projects/li-design
+    status: scaffolded
+    rule_sources: []
