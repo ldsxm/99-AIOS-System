@@ -23,21 +23,21 @@ projects:
   - id: taozi-tokyo
     name: 桃子逛东京
     purpose: 内容与视觉
-    path: null
-    status: planned
+    path: 03-Projects/taozi-tokyo
+    status: scaffolded
     rule_sources:
       - RULES.md
   - id: orlee
     name: 橘李 Orlee
     purpose: 户外品牌设计
-    path: null
-    status: planned
+    path: 03-Projects/orlee
+    status: scaffolded
     rule_sources:
       - RULES.md
   - id: overseas-accounts
     name: 海外账号运营
     purpose: Instagram＋Reddit
-    path: null
-    status: planned
+    path: 03-Projects/overseas-accounts
+    status: scaffolded
     rule_sources:
       - RULES.md

@@ -1,0 +1,10 @@
+schema_version: "1.0"
+project:
+  id: taozi-tokyo
+  name: 桃子逛东京
+  purpose: 内容与视觉
+  status: scaffolded
+  system_rule_sources:
+    - ../../RULES.md
+  project_rule_sources: []
+  memory_sources: []
