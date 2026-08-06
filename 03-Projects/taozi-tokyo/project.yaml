@@ -10,4 +10,6 @@ project:
     - ../../RULES.md
   project_rule_sources:
     - RULES.md
-  memory_sources: []
+  memory_sources:
+    - SOURCES.md
+    - MEMORY.md
