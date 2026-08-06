@@ -115,3 +115,9 @@ records:
   task: 橘李设计：生成 ORLEE 品牌设计 Brief
   status: success
   result: brand-design completed
+- id: exec-20260806T045438Z
+  recorded_at: '2026-08-06T04:54:38Z'
+  project: overseas-accounts
+  task: 海外账号运营：生成 Instagram 与 Reddit 双平台周计划
+  status: success
+  result: overseas-social completed
