@@ -2,6 +2,8 @@
 # frozen_string_literal: true
 
 require "yaml"
+require "open3"
+require "rbconfig"
 
 ROOT = File.expand_path("..", __dir__)
 REGISTRY = File.join(ROOT, "projects.registry.yaml")
@@ -54,5 +56,10 @@ if project["path"]
 else
   puts "  not connected"
 end
+
+puts "\nCapability route:"
+output, status = Open3.capture2(RbConfig.ruby, File.join(__dir__, "capability_router.rb"), task)
+puts output
+exit status.exitstatus unless status.success?
 
 puts "\nNext action: review this plan, then run the authorized task-specific executor."
