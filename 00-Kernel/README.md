@@ -49,3 +49,5 @@ ruby 00-Kernel/executor.rb --execute "检查 AIOS 内核状态"
 ```bash
 ruby 00-Kernel/test_aios.rb
 ```
+
+Git 已配置提交前自动运行这套测试与 Kernel 校验。

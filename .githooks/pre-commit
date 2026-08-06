@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+
+printf '%s\n' 'AIOS pre-commit: running regression tests...'
+ruby 00-Kernel/test_aios.rb
+ruby 00-Kernel/check.rb
+printf '%s\n' 'AIOS pre-commit: checks passed.'
