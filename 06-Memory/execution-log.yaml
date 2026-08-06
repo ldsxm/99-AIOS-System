@@ -49,3 +49,9 @@ records:
   task: ORLEE：检查品牌 Logo 与 VI 设计方向
   status: success
   result: brand-design completed
+- id: exec-20260806T033944Z
+  recorded_at: '2026-08-06T03:39:44Z'
+  project: overseas-accounts
+  task: 海外账号运营：检查 Instagram 与 Reddit 本周执行计划
+  status: success
+  result: overseas-social completed

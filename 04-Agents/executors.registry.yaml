@@ -44,5 +44,5 @@ executors:
     capabilities:
       - content
       - web_research
-    entrypoint: null
-    status: planned
+    entrypoint: 04-Agents/overseas_social.rb
+    status: active
