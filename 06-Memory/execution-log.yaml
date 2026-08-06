@@ -121,3 +121,9 @@ records:
   task: 海外账号运营：生成 Instagram 与 Reddit 双平台周计划
   status: success
   result: overseas-social completed
+- id: exec-20260806T045514Z
+  recorded_at: '2026-08-06T04:55:14Z'
+  project: taozi-tokyo
+  task: 桃子逛东京：生成内容与视觉策划 Brief
+  status: success
+  result: taozi-content-visual completed
