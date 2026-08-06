@@ -29,6 +29,7 @@ ruby 00-Kernel/capability_router.rb "检查并修改项目配置文件"
 
 ```bash
 ruby 00-Kernel/aios.rb "橘李刚俊莲：检查并修改项目配置文件"
+ruby 00-Kernel/aios.rb --execute "检查 AIOS 内核状态"
 ```
 
 ## 生成执行计划
