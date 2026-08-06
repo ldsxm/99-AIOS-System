@@ -65,3 +65,9 @@ ruby 00-Kernel/profile_check.rb
 ```bash
 ruby 00-Kernel/status.rb
 ```
+
+保存执行成果：
+
+```bash
+ruby 00-Kernel/artifact_runner.rb "桃子逛东京：规划本周内容与视觉方向"
+```
