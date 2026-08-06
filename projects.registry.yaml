@@ -10,14 +10,14 @@ projects:
       - WORKFLOW.md
   - id: temporary
     name: 临时创作实验室
-    path: 03-Projects/temporary
+    path: null
     status: placeholder
     rule_sources: []
   - id: li-gang-jun-lian
     name: 橘李刚俊莲
     purpose: 小红书运营
-    path: null
-    status: planned
+    path: 03-Projects/li-gang-jun-lian
+    status: scaffolded
     rule_sources:
       - RULES.md
   - id: taozi-tokyo

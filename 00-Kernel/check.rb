@@ -52,6 +52,13 @@ agents["agents"].each do |agent|
   end
 end
 
+projects["projects"].each do |project|
+  next if project["path"].nil?
+
+  project_path = File.join(ROOT, project.fetch("path"))
+  abort "ERROR project #{project.fetch("id")} path does not exist: #{project_path}" unless Dir.exist?(project_path)
+end
+
 puts "AIOS #{manifest.fetch("system").fetch("version")} OK"
 puts "projects: #{project_ids.length}"
 puts "agents: #{agent_ids.length}"
