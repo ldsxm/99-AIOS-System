@@ -19,3 +19,15 @@ records:
   task: 发布一篇小红书内容
   status: blocked
   result: requires a task-specific executor
+- id: exec-20260806T032842Z
+  recorded_at: '2026-08-06T03:28:42Z'
+  project: 99-aios-system
+  task: 检查 AIOS 内核状态
+  status: success
+  result: system-check completed
+- id: exec-20260806T032900Z
+  recorded_at: '2026-08-06T03:29:00Z'
+  project: li-gang-jun-lian
+  task: 加载橘李刚俊莲项目上下文
+  status: success
+  result: project-context completed
