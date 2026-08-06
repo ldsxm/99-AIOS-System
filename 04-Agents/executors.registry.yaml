@@ -36,8 +36,8 @@ executors:
     capabilities:
       - content
       - filesystem
-    entrypoint: null
-    status: planned
+    entrypoint: 04-Agents/brand_design.rb
+    status: active
   - id: overseas-social
     name: Overseas Social Executor
     responsibility: 执行 Instagram 与 Reddit 内容及社区流程
